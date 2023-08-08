@@ -10,7 +10,7 @@ import Footer from '../../components/footer/Footer'
 const Pricing = () => {
   return (
     <>
-      <Seo pageTitle="Expense App | Pricing" />
+      <Seo pageTitle="Field Inspection | Pricing" />
       {/* <!-- 
       =============================================
       Theme Default Menu

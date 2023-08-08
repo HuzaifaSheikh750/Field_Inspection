@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import MainMenu from "./MainMenu";
+import MainMenu from "../../components/header/MainMenu";
 import Link from "next/link";
 
 const DefaulHeader = () => {

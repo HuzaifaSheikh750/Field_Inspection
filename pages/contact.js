@@ -9,7 +9,7 @@ import Footer from '../components/footer/Footer'
 const contact = () => {
   return (
     <>
-      <Seo pageTitle="Expense App | Contact" />
+      <Seo pageTitle="Field Inspection | Contact" />
       {/* <!-- 
       =============================================
       Theme Default Menu

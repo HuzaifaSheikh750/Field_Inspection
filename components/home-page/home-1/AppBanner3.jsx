@@ -35,7 +35,7 @@ const AppBanner = () => {
               </h3>
             </div>
             <p className="fs-20 pt-30 pb-30 lg-pb-20">
-            Simplify your field inspections with KAISPE's user-friendly app 
+            Simplify your field inspections with KAISPE user-friendly app 
             </p>
             <ul className="style-none list-item">
               {features.map((feature, index) => (

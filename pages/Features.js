@@ -16,7 +16,7 @@ import Blog from "../components/home-page/home-4/FeaturesBlog";
 const contact = () => {
   return (
     <>
-      <Seo pageTitle="Field Inspection App | Features" />
+      <Seo pageTitle="Field Inspection | Features" />
 
       <DefaulHeader />
       {/* purchasefeature */}

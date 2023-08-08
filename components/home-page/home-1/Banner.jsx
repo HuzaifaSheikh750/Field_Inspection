@@ -14,7 +14,7 @@ const Banner = () => {
       <p className="text-lg tx-dark opacity-75 mb-30 lg-mb-20" style={{ fontSize: "20px", fontStyle: "" }}>
         Many organizations rely on ERP software to manage their employee purchase requisition processes.
         However, these systems can often be complicated to use and overwhelming for end-users due to their
-        extensive feature sets. KAISPE's Purchase Requisition App is designed to simplify this process, offering a
+        extensive feature sets. KAISPE Purchase Requisition App is designed to simplify this process, offering a
         user-friendly and intuitive cloud-based solution.
       </p>
       <div className="d-inline-flex align-items-center">

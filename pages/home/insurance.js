@@ -2,7 +2,7 @@ import Link from "next/link";
 import Seo from "../../components/common/Seo";
 import Footer from "../../components/footer/Footer";
 // import DefaulHeader from "../../components/home-page/home-6/Header";
-import DefaulHeader from "../../components/Header/Header2";
+import DefaulHeader from "../../components/header/Header2";
 import AppBanner from "../../components/home-page/home-1/AppBanner";
 import AppBanner2 from "../../components/home-page/home-1/AppBanner2";
 import Banner from "../../components/home-page/home-1/Banner";
@@ -28,7 +28,7 @@ import AppBanner3 from "../../components/home-page/home-1/AppBanner3";
 const Insurance = () => {
   return (
     <>
-      <Seo pageTitle="Purchase Requisition App" />
+      <Seo pageTitle="Field Inspection App" />
       {/* <!-- 
       =============================================
 			Theme Default Menu
