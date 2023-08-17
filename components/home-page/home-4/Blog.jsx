@@ -51,7 +51,7 @@ const Blog = () => {
           </article>
         </div>
       ))}
-      <div className="text-center xs-mt-40" style={{ marginTop: "50px" }}>
+      {/* <div className="text-center xs-mt-40" style={{ marginTop: "50px" }}>
         <Link
           href="/Features"
           className="btn-twentyTwo fw-500 tran3s"
@@ -60,7 +60,7 @@ const Blog = () => {
         >
           View All Features
         </Link>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -42,7 +42,7 @@ const AppBanner = () => {
         <div className="block-style-seven wow fadeInLeft">
           <div className="title-style-one">
           {/* <div className="sc-title" style={{ fontWeight: "bold", marginBottom: "30px"}}>Benefit</div>   */}
-            <h3 className=" fw-500 tx-dark m0" style={{ fontSize: "38px", fontWeight:"bold" }}>
+            <h3 className=" fw-500 tx-dark m0 appBannerHeading" style={{ fontSize: "38px", fontWeight:"bold" }}>
            <span style={{ color: "#6A3197" }}> Integration </span>
             with Microsoft Dynamics 365 Field Service and Microsoft Dynamics 365 F&O 
             </h3>
@@ -59,16 +59,16 @@ const AppBanner = () => {
           </ul>
           <div className="d-sm-flex align-items-center  mt-55 lg-mt-30">
               {buttons.map((button, index) => (
-                <a
-                  href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.kspfiapp?tab=Overview"
-                  target="_blank"
-                  className={`d-flex align-items-center ${button.className}`}
-                  key={index}
-                  style={{marginRight:"20px"}}
-                >
-                  <img src={button.icon} alt="" className="lazy-img icon" style={{width:"150px"}}/>
+                // <a
+                //   href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.kspfiapp?tab=Overview"
+                //   target="_blank"
+                //   className={`d-flex align-items-center ${button.className}`}
+                //   key={index}
+                //   style={{marginRight:"20px"}}
+                // >
+                  <img src={button.icon} alt="" className="lazy-img icon" style={{width:"150px", marginRight:"20px"}}/>
                 
-                </a>
+                // </a>
               ))}
                 
             </div>

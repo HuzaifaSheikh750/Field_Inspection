@@ -85,7 +85,7 @@ const Pricing = () => {
                       href="/contact"
                       className="btn-twentyOne fw-500 tran3s"
                     >
-                      contact us    
+                      Contact Us    
                     </Link>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ const Pricing = () => {
               <div className="col-lg-4 footer-intro mb-40">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/purchase/purchase_white.png" alt="logo" width={220} />
+                    <img src="/images/field/fieldLogoWhite.png" alt="logo" width={220} />
                   </Link>
                 </div>
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
@@ -123,14 +123,16 @@ const Pricing = () => {
               <div className="col-lg-4 footer-intro mb-40">
                 <div className="logo">
                   <h5 className="footer-title text-white fw-500">Email Address</h5>
+                  
                 </div>
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
-                info@kaispe.com
+                <i className="fa fa-envelope text-white fs-18" style={{marginRight:"15px"}}/>info@kaispe.com
                 </p>
                 <h5 className="footer-title text-white fw-500">Contact Number</h5>
+             
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
-                     USA : (+1)-315-791-4472 <br></br>
-                     PAK : (+92)-213-432-6085
+                <i className="fa fa-phone text-white fs-18" style={{marginRight:"15px"}}/> USA : (+1)-315-791-4472 <br></br>
+                <i className="fa fa-phone text-white fs-18" style={{marginRight:"15px"}}/>   PAK : (+92)-213-432-6085
                 </p>
               
               </div>

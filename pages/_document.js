@@ -6,11 +6,11 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Jano - Creative Multipurpose React NextJS Template"
+          content="Field Inspection App"
         />
         <meta
           name="keywords"
-          content="agency, bootstrap 5, business, business multipurpose, charity, creative, creative template, crypto, education, hosting, insurance, landing page, portfolio, real estate, responsive, react, nextjs"
+          content="Field Inspection App"
         />
 
         <link rel="icon" href="/favicon.png" />

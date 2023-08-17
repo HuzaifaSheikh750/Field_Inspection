@@ -12,7 +12,7 @@ const Hero = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="OuLl6YTAQjY"
+        videoId="bLVmFKf8m0U"
         // https://www.youtube.com/watch?v=M9CNNbq7AHY
         onClose={() => setOpen(false)}
       />
@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="container ">
           <div className="row align-items-center">
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-              <div className="text-wrapper" data-aos="fade-right">
+              <div className="text-wrapper" data-aos="fade-right" >
                 <h3
                   className="hero-heading fw-500 tx-dark field_title"
                   style={{ fontSize: "50px" }}
@@ -121,7 +121,7 @@ const Hero = () => {
                   src="/images/field/fieldTablet.png"
                   alt="img"
                   className="lazy-img"
-                  // style={{ marginLeft: "20px" }}
+                  // style={{ marginLeft: "40px" }}
                   // style={{position:"relative", right:"-230px"}}
                 />
               </div>

@@ -84,7 +84,7 @@ const Insurance = () => {
                     <div className="text-wrapper text-center text-lg-start md-pb-30" style={{position:"relative"}}>
                       <h3 className="main-title fw-500  m0" style={{fontSize:"40px", textAlign:"center"}}>
                         <img src="/images/field/inverted.png" alt="icon"/>
-                        Revamp your field inspections and achieve compliance effortlessly with KAISPE Inspection App. 
+                        Revamp your field inspections and achieve compliance effortlessly with KAISPE <span style={{color:"#6A3197", fontWeight:"bold"}}>Field Inspection App </span>. 
                       <img src="/images/field/verted.png" style={{alignItems:"end", position:"absolute", left:"85%"}} alt="icon"/>
                       </h3>
                     </div>
@@ -119,7 +119,7 @@ const Insurance = () => {
             className="title-style-six text-center mb-50 lg-mb-10"
             data-aos="fade-up"
           >
-            <h3 className="main-title fw-500 tx-dark" style={{fontSize:"40px", fontWeight:"bold", marginBottom:"100px"}}>How does the KAISPE <br/> Field Inspection app work with <span style={{color:"#6A3195"}}>Dynamics 365 </span>?</h3>
+            <h3 className="main-title fw-500 tx-dark" style={{fontSize:"40px", fontWeight:"bold", marginBottom:"100px"}}>How does the KAISPE <br/> Field Inspection app work with <span style={{color:"#6A3195"}}>Dynamics 365 </span></h3>
           </div>
           <div className="row">
             <Blog />
@@ -144,7 +144,7 @@ const Insurance = () => {
                   <div className="col-lg-12"  style={{display:"grid", placeItems:"center", justifyContent:"center"}}>
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
                       <h3 className="main-title fw-500 text-white m0" style={{fontSize:"40px", textAlign:"center"}}>
-                      Try out the KAISPE Purchase Requisition App<br/> today!
+                      Try out the KAISPE Field Inspection App<br/> today!
                       </h3>
                     </div>
                     <Link      
@@ -273,8 +273,9 @@ const Insurance = () => {
                   <a href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.kspfiapp?tab=Overview" target="_blank" style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
                   {/* <img src="/images/Microsoft_button.png" alt="shape" className="lazy-img icon img-fluid" style={{width:"200px", height:"55px", marginTop:"20px"}}/> */}
                   
-                  <div className="btn-twentyTwo fw-500 tran3s" style={{width:"250px", height:"70px", marginTop:"20px", display:"flex", alignItems:"center", justifyContent:"center", backgroundColor:"black "}}>
-                    <img src="/images/field/micBtn.png"/>
+                  <div className=" fw-500 tran3s" style={{marginTop:"50px"}} >
+                  {/* <div className="btn-twentyTwo fw-500 tran3s" style={{width:"250px", height:"70px", marginTop:"20px", display:"flex", alignItems:"center", justifyContent:"center", backgroundColor:"black "}}> */}
+                    <img src="/images/field/download.png"/>
                   </div>
                   </a>
                 </div>                                              
@@ -297,7 +298,7 @@ const Insurance = () => {
                 <div className="logo">
                   <Link href="/">
                     <img src="/images/field/fieldLogoWhite.png" alt="logo" width={220} />
-                  </Link>
+                  </Link> 
                 </div>
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
                 KAISPE has been providing solutions and services to customers using Microsoft Dynamics, Azure, Power platform, Oracle NetSuite, mobile and web app development. 
@@ -311,14 +312,16 @@ const Insurance = () => {
               <div className="col-lg-4 footer-intro mb-40">
                 <div className="logo">
                   <h5 className="footer-title text-white fw-500">Email Address</h5>
+                  
                 </div>
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
-                info@kaispe.com
+                <i className="fa fa-envelope text-white fs-18" style={{marginRight:"15px"}}/>info@kaispe.com
                 </p>
                 <h5 className="footer-title text-white fw-500">Contact Number</h5>
+             
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
-                     USA : (+1)-315-791-4472 <br></br>
-                     PAK : (+92)-213-432-6085
+                <i className="fa fa-phone text-white fs-18" style={{marginRight:"15px"}}/> USA : (+1)-315-791-4472 <br></br>
+                <i className="fa fa-phone text-white fs-18" style={{marginRight:"15px"}}/>   PAK : (+92)-213-432-6085
                 </p>
               
               </div>

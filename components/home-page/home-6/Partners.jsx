@@ -1,7 +1,7 @@
 const   Partners = () => {
   const partnersData = [
     {
-      imgSrc: "/images/field/velosio.png",
+      imgSrc: "/images/field/solgari.png",
       imgAlt: "logo",
       divClass: "img-box bx-a",
       link: "#",
@@ -10,7 +10,7 @@ const   Partners = () => {
       dataAosDelay: "100",
     },
     {
-      imgSrc: "/images/field/crayon.png",
+      imgSrc: "/images/field/eemc.png",
       imgAlt: "logo",
       divClass: "img-box bx-b",
       link: "#",
@@ -23,12 +23,12 @@ const   Partners = () => {
       imgAlt: "logo",
       divClass: "img-box bx-c",
       link: "#",
-      colClasses: "col-lg-3 col-md-4 col-6",
+      colClasses: "col-lg-3 col-md-4 col-6 micro",
       dataAos: "fade",
       dataAosDelay: "300",
     },
     {
-      imgSrc: "/images/field/solgari.png",
+      imgSrc: "/images/field/crayon.png",
       imgAlt: "logo",
       divClass: "img-box bx-d",
       link: "#",
@@ -37,7 +37,7 @@ const   Partners = () => {
       dataAosDelay: "300",
     },
     {
-      imgSrc: "/images/field/eemc.png",
+      imgSrc: "/images/field/velosio.png",
       imgAlt: "logo",
       divClass: "img-box bx-e",
       link: "#",
@@ -92,7 +92,7 @@ const   Partners = () => {
           data-aos={partner.dataAos}
           data-aos-delay={partner.dataAosDelay}
         >
-          <div style={{width:"300px"}} >
+           <div className={`img-box ${partner.className}`}>
             {/* <a href="#"> */}
               <img src={partner.imgSrc} alt="logo" className="lazy-img" />
             {/* </a> */}

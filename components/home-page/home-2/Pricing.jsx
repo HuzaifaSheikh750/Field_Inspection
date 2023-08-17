@@ -3,7 +3,7 @@ import { useState } from "react";
 const plans = [
   {
     id: 1,
-    name: "Basic",
+    name: "Plan 1",
     details: "10-49 Users",
     price: "7.00",
     billing: "",
@@ -25,9 +25,9 @@ const plans = [
   },
   {
     id: 2,
-    name: "Standard",
+    name: "Plan 2",
     details: "50-100 Users",
-    price: "9.00",
+    price: "6.00",
     billing: "",
     limit: "/user/month",
     btnClass: "btn-fourteen fw-500 tran3s w-100 ",
@@ -47,9 +47,9 @@ const plans = [
   },
   {
     id: 3,
-    name: "Business",
+    name: "Plan 3",
     details: "Above 100 Users",
-    price: "14.00",
+    price: "4.50",
     billing: "",
     limit: "/user/month",
     btnClass: "trial-button ",
@@ -113,16 +113,16 @@ const Pricing = () => {
               {plan.details}
             </div>
             <div
-              className="top-banner align-items-center d-md-flex"
+              className="top-banner align-items-center "
               style={{ background: plan.bgColor }}
             >
-              <div className="price fw-500">
+              <div className="price fw-500" style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
                 <sup>$</sup>
                 {plan.price}
               </div>
               <div>
                 <span>{plan.billing}</span>
-                <em className="d-block">{plan.limit}</em>
+                <em className="d-block" style={{textAlign:"center"}}>{plan.limit}</em>
               </div>
             </div>
 
@@ -133,7 +133,7 @@ const Pricing = () => {
                 <li key={i} style={{fontSize:"15px"}}>{feature}</li>
               ))}
             </ul>
-            <a href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.kspfiapp?tab=PlansAndPrice" className={plan.btnClass}>
+            <a href="https://appsource.microsoft.com/en-us/product/dynamics-365/kaispellc.kspfiapp?tab=PlansAndPrice" target="_blank" className={plan.btnClass}>
             Get it now
             </a>
             {/* <div className="trial-text pt-25 tx-dark">

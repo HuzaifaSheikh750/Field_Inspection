@@ -29,7 +29,7 @@ const AppBanner = () => {
           <div className="block-style-seven wow fadeInLeft">
             <div className="title-style-one">
               {/* <div className="sc-title text-uppercase">MOBILE APP</div> */}
-              <h3 className=" fw-500 tx-dark m0" style={{fontSize:"40px"}}>
+              <h3 className=" fw-500 tx-dark m0" style={{fontSize:"40px", fontWeight:"bold"}}>
               Experience the key Features of
               <span style={{color:"#6A3195", fontWeight:"bold"}}> KAISPE </span> Field Inspection App
               </h3>

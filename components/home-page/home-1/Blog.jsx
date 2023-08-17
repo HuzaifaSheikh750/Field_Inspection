@@ -26,7 +26,7 @@ const Blog = () => {
             </figure>
             <div className="post-data mt-40 truncate"  >
               <div className="post-date opacity-75 text-uppercase">
-                {post.date}
+                {/* {post.date} */}
               </div>
               <Link href={post.link} target="_blank" className="mt-5 mb-35 lg-mb-20" >
                 <h4 className="tran3s fw-normal tx-dark " style={{fontSize:"20px"}} >

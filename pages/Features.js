@@ -30,7 +30,7 @@ const contact = () => {
                 </h2> 
                 <p className="text-lg text-center text-lg-start md-pt-30 m0" style={{fontStyle:"italic", fontSize:"20px", color:"black"}}>
                     Field Inspection Made Easier and Simpler with Powerful KAISPE Field Inspection App
-                    Here Are A Few Notable Features of Our Solution:
+                    Here Are A Few Notable Features of Our Solution
               </p>
               </div>
               {/* /.title-style-four */}
@@ -40,7 +40,7 @@ const contact = () => {
         {/* End .container */}
 
         <div className="container pt-50 lg-pt-10" style={{backgroundColor:"white",  marginTop:"40px", borderRadius:"30px", marginBottom:"100px"}}>
-          <div className="row gx-xxl-5" style={{paddingTop:"0px"}}>
+          <div className="row gx-xxl-5" style={{padding:"50px", marginTop:"-100px"}}>
             <Blog />
           </div>
         </div>
@@ -60,8 +60,8 @@ const contact = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-12"  style={{display:"grid", placeItems:"center", justifyContent:"center"}}>
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
-                      <h3 className="main-title fw-500 text-white m0" style={{fontSize:"40px", textAlign:"center"}}>
-                      Try out the KAISPE Purchase Requisition App<br/> today!
+                      <h3 className="main-title fw-500 text-white m0" style={{fontSize:"40px", textAlign:"center", paddingLeft:"60px", paddingRight:"60px"}}>
+                      Try out the KAISPE Field Inspection App<br/> today!
                       </h3>
                     </div>
                     <Link      
@@ -86,7 +86,7 @@ const contact = () => {
               <div className="col-lg-4 footer-intro mb-40">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/purchase/purchase_white.png" alt="logo" width={220} />
+                    <img src="/images/field/fieldLogoWhite.png" alt="logo" width={220} />
                   </Link>
                 </div>
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
@@ -101,14 +101,16 @@ const contact = () => {
               <div className="col-lg-4 footer-intro mb-40">
                 <div className="logo">
                   <h5 className="footer-title text-white fw-500">Email Address</h5>
+                  
                 </div>
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
-                info@kaispe.com
+                <i className="fa fa-envelope text-white fs-18" style={{marginRight:"15px"}}/>info@kaispe.com
                 </p>
                 <h5 className="footer-title text-white fw-500">Contact Number</h5>
+             
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
-                     USA : (+1)-315-791-4472 <br></br>
-                     PAK : (+92)-213-432-6085
+                <i className="fa fa-phone text-white fs-18" style={{marginRight:"15px"}}/> USA : (+1)-315-791-4472 <br></br>
+                <i className="fa fa-phone text-white fs-18" style={{marginRight:"15px"}}/>   PAK : (+92)-213-432-6085
                 </p>
               
               </div>

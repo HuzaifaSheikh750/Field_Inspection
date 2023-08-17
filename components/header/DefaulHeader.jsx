@@ -34,7 +34,7 @@ const DefaulHeader = () => {
           <div className="logo order-lg-0">
             <Link href="/" className="d-block">
               <Image
-                src="/images/purchase/purchase_logo.png"
+                src="/images/field/fieldLogo.png"
                 alt="logo"
                 width={220}
                 height={50}

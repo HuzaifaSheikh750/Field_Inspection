@@ -13,11 +13,11 @@ const FeaturesBlog = () => {
     
         >
           <article
-            className="blog-meta-two mt-30  shadow-lg p-3 mb-5 bg-white rounded"
+            className="blog-meta-two mt-30  shadow-lg p-3 mb-5 bg-white rounded featuresCard"
             style={{
               border: "1px solid #eaeaea",
               borderRadius: "10px",
-              minHeight: "600px",
+              minHeight: "510px",
               // boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;",
             }}
           >
@@ -45,7 +45,7 @@ const FeaturesBlog = () => {
             </div>
             <p
               className="fs-17 mb-35"
-              style={{ textAlign: "start", paddingTop: "10px" }}
+              style={{ textAlign:"start", paddingTop: "10px" }}
             >
               {article.description}
             </p>
